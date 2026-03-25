@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldWebApp", "HelloWorldWebApp\HelloWorldWebApp\HelloWorldWebApp.csproj", "{8A3941F6-94DC-44E4-8681-043A14A0F759}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldWebApp.Client", "HelloWorldWebApp\HelloWorldWebApp.Client\HelloWorldWebApp.Client.csproj", "{E4DBC2DB-DCD2-40D5-A7E7-094A9817A5D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A3941F6-94DC-44E4-8681-043A14A0F759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3941F6-94DC-44E4-8681-043A14A0F759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3941F6-94DC-44E4-8681-043A14A0F759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3941F6-94DC-44E4-8681-043A14A0F759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DBC2DB-DCD2-40D5-A7E7-094A9817A5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DBC2DB-DCD2-40D5-A7E7-094A9817A5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DBC2DB-DCD2-40D5-A7E7-094A9817A5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DBC2DB-DCD2-40D5-A7E7-094A9817A5D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54BC4EB0-AD08-4CE3-992E-3E7C9A29245F}
+	EndGlobalSection
+EndGlobal
