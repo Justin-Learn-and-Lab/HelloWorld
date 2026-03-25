@@ -16,10 +16,10 @@ jobs:
       contents: read #This is required for actions/checkout
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6  # Updated to v6 for Node 24 support
 
       - name: Set up .NET Core
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v5  # Updated to v5 for Node 24 support
         with:
           dotnet-version: '8.x'
 
